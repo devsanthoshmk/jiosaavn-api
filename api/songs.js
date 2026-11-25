@@ -173,7 +173,7 @@ export default async function handler(
     `&_format=json` +
     `&_marker=0` +
     `&api_version=4` +
-    `&ctx=wap6dot0` +
+    `&ctx=web` +
     `&n=${limit}` +
     `&__call=search.getResults`;
 
@@ -196,11 +196,6 @@ export default async function handler(
           "user-agent":
             "Mozilla/5.0",
 
-          cookie:
-            "DL=english; " +
-            "L=english; " +
-            "mm_latlong=19.0760%2C72.8777; " +
-            "geo=19.0760%2C72.8777%2CIN%2CMaharashtra%2CMumbai%2C400001",
         },
       });
 
